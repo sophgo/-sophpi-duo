@@ -14,6 +14,8 @@
     <project name="linux_5.10"/>
     <project name="osdrv"/>
     <project name="ramdisk"/>
+    <project name="tdl_sdk"/>
+    <project name="cvi_rtsp"/>
     <project name="oss" revision="master"/>
     <project name="cvi_rtsp">
     <project name="cvi_mpi"/>
