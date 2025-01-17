@@ -27,5 +27,5 @@
     <project name="cnpy" path="cnpy" revision="tpu"/>
     <project name="buildroot-2021.05"/>
     <project name="tdl_sdk" revision="master"/>
-    <project name="ive" revision="master"/>
+    <project name="ive"/>
 </manifest>

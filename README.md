@@ -1,15 +1,66 @@
-# sg200x-evb boards.
+# 快速入门指南
 
-step1:
-```
+## V410 SDK 编译步骤
+
+### 获取源码
+
+步骤一:
+
+``` bash
+mkdir -p <WORKSPACE>
+cd <WORKSPACE>
 git clone -b sg200x-evb git@github.com:sophgo/sophpi.git
 cd sophpi
 ./scripts/repo_clone.sh --gitclone scripts/subtree.xml
 ```
-step2:
-```
-source build/cvisetup.sh
+
+步骤二:
+
+``` bash
+source build/envsetup_soc.sh
 defconfig sg2002_wevb_riscv64_sd
 clean_all
 build_all
 ```
+
+## V420 SDK 编译步骤
+
+### 获取源码
+
+步骤一:
+
+``` bash
+mkdir -p <WORKSPACE>
+cd <WORKSPACE>
+git clone -b sg200x-evb git@github.com:sophgo/sophpi.git
+cd sophpi
+./scripts/repo_clone.sh --gitclone scripts/subtree_cv18xx-v4.2.x.xml
+```
+
+步骤二:
+
+``` bash
+source build/envsetup_soc.sh
+defconfig cv180zb_wevb_0008a_spinor
+clean_all
+build_all
+```
+
+# NOTE.
+
+TODO
+
+# 修订记录
+
+## V410 SDK 修订记录
+
+| 版本号  | 版本日期  | 版本更新内容                                      |
+| ------ | --------- | ------------------------------------------------ |
+| v4.1.6 | 2024.4.19 | TODO                                             |
+
+
+## V420 SDK 修订记录
+
+| 版本号  | 版本日期  | 版本更新内容                                      |
+| ------ | --------- | ------------------------------------------------ |
+| v4.2.6 | 2024.4.19 | TODO                                             |
